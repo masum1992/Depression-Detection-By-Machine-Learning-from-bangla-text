@@ -1,0 +1,77 @@
+﻿all_words length is = 6332
+length before shuffling = 573
+length after shuffling = 573
+for unigram
+
+Original Naive Bayes classifier accuracy: 57.391304347826086
+Depressed precision: 0.5568181818181818
+D recall: 0.8305084745762712
+D f_measure: 0.6666666666666666
+Not Depressed precision: 0.6296296296296297
+ND recall: 0.30357142857142855
+ND f_measure: 0.40963855421686746
+Most Informative Features
+                       : = 0.17747728062315274      D : ND     =      4.5 : 1.0
+                       ( = 0.22893625284070537      D : ND     =      3.9 : 1.0
+                       : = 0.093958560329904392      D : ND     =      3.8 : 1.0
+                       : = 0.14520868414621588      D : ND     =      3.1 : 1.0
+                    আমার = 0.16241250229517304      D : ND     =      3.1 : 1.0
+                    আমার = 0.25521964646384332      D : ND     =      3.1 : 1.0
+                     আমি = 0.16413555154024057      D : ND     =      3.1 : 1.0
+                      আর = 0.058841177108036428      D : ND     =      3.1 : 1.0
+                      না = 0.065555514934399442      D : ND     =      3.1 : 1.0
+                      আর = 0.099294486369811474     ND : D      =      2.9 : 1.0
+
+
+MNB_classifier accuracy percent: 74.78260869565217
+D precision: 0.57
+D recall: 0.9661016949152542
+D f_measure: 0.7169811320754716
+ND precision: 0.6825396825396826
+ND recall: 0.7678571428571429
+ND f_measure: 0.7226890756302522
+
+
+LogisticRegression_classifier accuracy percent: 73.04347826086956
+D precision: 0.57
+D recall: 0.9661016949152542
+D f_measure: 0.7169811320754716
+ND precision: 0.625
+ND recall: 0.8928571428571429
+ND f_measure: 0.7352941176470589
+
+
+LinearSVC_classifier accuracy percent: 77.39130434782608
+D precision: 0.57
+D recall: 0.9661016949152542
+D f_measure: 0.7169811320754716
+ND precision: 0.6172839506172839
+ND recall: 0.8928571428571429
+ND f_measure: 0.7299270072992701
+
+
+NuSVC_classifier accuracy percent: 74.78260869565217
+D precision: 0.57
+D recall: 0.9661016949152542
+D f_measure: 0.7169811320754716
+ND precision: 0.6024096385542169
+ND recall: 0.8928571428571429
+ND f_measure: 0.7194244604316548
+
+
+BernoulliNB_classifier accuracy percent: 75.65217391304347
+D precision: 0.5471698113207547
+D recall: 0.9830508474576272
+D f_measure: 0.703030303030303
+ND precision: 0.6024096385542169
+ND recall: 0.8928571428571429
+ND f_measure: 0.7194244604316548
+
+
+SGDC_classifier accuracy percent: 70.43478260869566
+D precision: 0.5420560747663551
+D recall: 0.9830508474576272
+D f_measure: 0.6987951807228915
+ND precision: 0.6046511627906976
+ND recall: 0.9285714285714286
+ND f_measure: 0.7323943661971831
